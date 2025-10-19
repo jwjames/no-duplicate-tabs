@@ -1,0 +1,26 @@
+{
+  "name": "no-duplicate-tabs",
+  "displayName": "No Duplicate Tabs",
+  "description": "Focuses the existing editor tab if a file is already open instead of opening a new one.",
+  "version": "1.0.0",
+  "publisher": "jeffjames",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": [
+    "onStartupFinished",
+    "onDidOpenTextDocument"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.9.3",
+    "vsce": "^2.15.0"
+  }
+}
