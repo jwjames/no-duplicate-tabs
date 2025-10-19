@@ -4,6 +4,7 @@
   "description": "Focuses the existing editor tab if a file is already open instead of opening a new one.",
   "version": "1.0.0",
   "publisher": "jeffjames",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jwjames/no-duplicate-tabs.git"
