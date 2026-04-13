@@ -8,5 +8,8 @@ dist/
 # VS Code extension test runner
 .vscode-test/
 
+# Packaged extension (published via GitHub Releases)
+*.vsix
+
 # macOS
 .DS_Store
