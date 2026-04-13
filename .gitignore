@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+out/
+dist/
+
+# VS Code extension test runner
+.vscode-test/
+
+# macOS
+.DS_Store
